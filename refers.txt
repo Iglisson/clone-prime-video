@@ -1,0 +1,9 @@
+data.results.map((i, j) => {
+    if (j > 10) {
+        return;
+    } else if (j == 0) {
+        main.innerHTML += `
+            <div class='banner-principal' style:"background-image: url('https://image.tmdb.org/t/p/w500${i.backdrop_path}')"></div>
+        `;
+    }
+});
