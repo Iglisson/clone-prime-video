@@ -14,7 +14,7 @@ export default function MovieBanner(data) {
 
     info.className = "banner-movie-info";
 
-    title.textContent = data.original_title;
+    title.textContent = data.title;
     info.appendChild(title);
 
     btnPlay.textContent = "Assista agora";    

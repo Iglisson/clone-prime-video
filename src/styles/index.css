@@ -146,8 +146,10 @@ header {
 }
 
 .banner-movie-info {
+    width: 37%;
     position: absolute;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 .banner-movie-info h2 {
@@ -182,17 +184,76 @@ header {
 }
 
 .poster {
+    position: relative;
     width: 150px;
-    margin-bottom: 10px;
     margin: 0 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-flow: row wrap;
+    flex-grow: 1;
 }
 
 .poster img {
     width: 100%;
     cursor: pointer;
+    background-color: black;
 }
 
-.poster img:hover {
+.poster .img-focus {
     transition: all 0.4s;
-    transform: scale(1.07);
+    transform: scale(1.07);  
+    filter: brightness(30%);  
+}
+
+.poster-info {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: none;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.poster-info h3 {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
+} 
+
+.poster-info button {
+    color: var(--white-one);
+    background-color: var(--blue-one);
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 5px 40px rgba(255, 255, 255, 0.1);
+}
+
+.poster-info button:hover {
+    transition: all 0.4s;
+    background-color: var(--blue-two);
+}
+
+footer {
+    margin: 30px 0;
+}
+
+footer p {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--blue-one);
+}
+
+footer a:hover {
+    transition: all 0.4s;
+    color: var(--blue-two);
 }

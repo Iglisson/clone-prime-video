@@ -38,9 +38,6 @@
 }
 
 @media screen and (max-width: 580px) {
-    /* .container-header-left img {
-        transform: scale(0.7);
-    } */
 
     .container-header-left nav {
         display: none;
@@ -54,12 +51,8 @@
         height: 200px;
     }    
 
-    .movies-posters {
+    /* .movies-posters {
         justify-content: space-between;
-    }
-
-    .poster {
-        width: calc(50% - 10px);
-    }
+    } */
     
 }
