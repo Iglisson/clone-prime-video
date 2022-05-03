@@ -20,6 +20,14 @@
     .banner-movie img {
         width: 100%;
     }
+
+    .banner-movie-info {
+        width: 100%;
+    }
+
+    .banner-movie-info {
+        text-shadow: 0 5px 30px black;
+    }
 }
 
 @media screen and (max-width: 875px) {
@@ -49,10 +57,6 @@
 
     .banner{
         height: 200px;
-    }    
-
-    /* .movies-posters {
-        justify-content: space-between;
-    } */
+    }
     
 }
