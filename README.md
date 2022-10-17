@@ -1,4 +1,4 @@
-# Clone Prime Video
+# Clone Prime Video (demonstration)
 
 [Teste aqui](https://https://iglisson.github.io/clone-prime-video/)
 
