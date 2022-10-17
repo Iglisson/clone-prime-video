@@ -1,6 +1,6 @@
 # Clone Prime Video (demonstration)
 
-[Teste aqui](https://https://iglisson.github.io/clone-prime-video/)
+[Teste aqui](https://iglisson.github.io/clone-prime-video/)
 
 ## Icons 
 - :up: Update
